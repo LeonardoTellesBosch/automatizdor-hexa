@@ -1,0 +1,82 @@
+import pyautogui
+import time
+dia = input('escreva o momento desejado: ')           pt-br
+fim = input('escreva o momento final: ')
+
+pyautogui.PAUSE = 2
+
+
+ 
+
+
+
+pyautogui.hotkey("win")
+pyautogui.write("google chrome")
+pyautogui.press("enter")
+pyautogui.click(x=619, y=59)
+pyautogui.write("10.0.0.20") // essa linha destina a se a colocar o link ou ip do hexa//
+pyautogui.hotkey("enter")
+time.sleep (1)
+pyautogui.click(x=663, y=477)
+import pyautogui
+import time
+dia = input('escreva o momento desejado: ') // escreva a data que voce quer que pegue no inicio do periodo e na subsequente o fim do periodo e pressione enter
+fim = input('escreva o momento final: ')
+
+pyautogui.PAUSE = 2
+
+
+ 
+
+
+
+pyautogui.hotkey("win")
+pyautogui.write("google chrome")
+pyautogui.press("enter")
+pyautogui.click(x=619, y=59)
+pyautogui.write("10.0.0.20")
+pyautogui.hotkey("enter")
+time.sleep (1)
+pyautogui.click(x=663, y=477)
+pyautogui.write("xxxxx")  //coloque seu email ou nome no email que usa no hexa
+pyautogui.click(x=664, y=516)
+pyautogui.write("xxxxx") //  coloque a senha
+time.sleep (0.5)
+pyautogui.press("enter")
+pyautogui.click(x=633, y=137)
+time.sleep (2)
+#pyautogui.click(button = 'left')
+pyautogui.click(x=430, y=456)
+pyautogui.click(button = 'left')
+pyautogui.click(x=697, y=408)
+pyautogui.hotkey("ctrl", "a")
+pyautogui.write(dia)
+pyautogui.click(x=700, y=441)
+pyautogui.hotkey("ctrl", "a")
+pyautogui.write(fim)
+pyautogui.click(x=742, y=476)
+
+pyautogui.click(x=619, y=59)
+pyautogui.write("site do email")
+pyautogui.press("enter")
+pyautogui.click(x=618, y=327)
+pyautogui.write("email que é seu ")
+pyautogui.press("tab")
+pyautogui.write("senha do seu email")
+pyautogui.press("enter")
+time.sleep (2)
+pyautogui.click(x=106, y=124)
+pyautogui.click(x=358, y=246)
+pyautogui.write("email que vc deseja que receba os dados")
+pyautogui.press("tab")
+pyautogui.press("tab")
+pyautogui.write(f"batida de ponto referente ao mes passado do inicio ao fim do mes das 00:01 ate 23:59")
+pyautogui.click(x=358, y=246)
+pyautogui.click(x=1144, y=333)
+pyautogui.click(x=92, y=174)
+pyautogui.click(x=247, y=175)
+pyautogui.click(x=496, y=443)
+pyautogui.click(x=272, y=145)
+
+
+as coordenadas utilizadas devem ser prescritas dependendo do computador pra ajustar utilize o codigo pyautogui.position()
